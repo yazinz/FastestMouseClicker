@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <strings.h>
 #include <stdlib.h>
-#include <systemtopologyapi.h>
 #include <windows.h>
 #include <conio.h>
 #include <winuser.h>
