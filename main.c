@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include <strings.h>
-#include <stdlib.h>
 #include <windows.h>
 #include <conio.h>
 #include <winuser.h>
@@ -16,7 +14,7 @@ void mouse_movement(int x,int y) /* mouse mover */
 {    
     SetCursorPos(x,y);
 }
-void mouse_clicker()    /* click the rightbutton */
+void mouse_clicker()    /* click the right button */
 {
     mouse_event(MOUSEEVENTF_RIGHTDOWN,0,0,0,0);
     Sleep(100);
